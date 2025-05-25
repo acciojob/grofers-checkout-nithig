@@ -15,6 +15,7 @@ const getSum = () => {
 	totCell.textContent = "Total";
 	const totDat = document.createElement("td");
 	totDat.textContent = total;
+	totDat.id="ans";
 	totRow.appendChild(totCell);
 	totRow.appendChild(totDat);
 	document.getElementById('cart').appendChild(totRow);
